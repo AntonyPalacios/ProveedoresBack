@@ -1,0 +1,38 @@
+server:
+  port: 4300
+uciclient:
+  properties:
+    path: src/main/resources/uciclient.properties
+
+app:
+  ipAddress: API
+  channel: API
+  oauth:
+    name: proveedoresapp
+    pass: proveedoresapppass
+jwt:
+  timelife: 86400
+  secretkey: secretkey123
+
+exception:
+  mesagges: 
+    error1: 'Error en el servicio' 
+fitbank:
+  USR: 'USRPROYECTO'
+  IDM: 'ES'
+  TER: 'BM2202'
+  SID: '9F0FB2D53C55B1A1081449A1B6DC855F.uci1'
+  ROL: '11'
+  NVS: '10'
+  IPA: '192.168.11.49'
+  TIP: 'MAN'
+  VER: '01'
+  ARE: '645'
+  TPP: 'Join'
+  CIO: '2'
+  SUC: '45'
+  OFC: '645'
+  REV: '0'
+  CAN: 'WEB'
+  FCN: '2017-08-21'
+  CPERSONA: '9100010'
